@@ -31,7 +31,7 @@ const ezlib={
 				}
 			}
 			
-			xhr.send(data);
+			xhr.send(JSON.stringify(data));
 			callback(xhr)
 		}
 	}
